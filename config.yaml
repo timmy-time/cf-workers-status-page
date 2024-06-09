@@ -27,8 +27,9 @@ monitors:
   - id: panel-galaxynex-us
     name: Galaxy Nexus Panel
     description: 'Our own custom Panel.'
-    url: 'https://au.dev.galaxynex.us'
+    url: 'https://au.dev.galaxynex.us/auth/login'
     method: GET
+    followRedirect: true # should fetch follow redirects, default=false
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
