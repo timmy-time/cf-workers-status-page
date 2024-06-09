@@ -38,9 +38,3 @@ monitors:
     followRedirect: true # should fetch follow redirects, default=false
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
-    
-  - id: audev-galaxynex-us
-    name: Galaxy Nexus Nebula Node 1
-    url: 'https://au-dev.galaxynex.us:4443'
-    method: GET
-    expectStatus: 200
