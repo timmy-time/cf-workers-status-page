@@ -23,6 +23,12 @@ monitors:
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
+    
+  - id: clients-galaxynex-us
+    name: Galaxy Nexus Client Portal
+    url: 'https://clients.galaxynex.us/'
+    method: GET
+    expectStatus: 200
 
   - id: panel-galaxynex-us
     name: Galaxy Nexus Panel
@@ -32,9 +38,9 @@ monitors:
     followRedirect: true # should fetch follow redirects, default=false
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
-
-  - id: clients-galaxynex-us
-    name: Galaxy Nexus Client Portal
-    url: 'https://clients.galaxynex.us/'
+    
+  - id: audev-galaxynex-us
+    name: Galaxy Nexus Nebula Node 1
+    url: 'https://au-dev.galaxynex.us:4443'
     method: GET
     expectStatus: 200
